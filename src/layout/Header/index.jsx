@@ -1,13 +1,15 @@
-import { useState } from "react"
 import { Link } from "react-router-dom";
-import "./index.scss"
+import "./index.scss";
+
+import logo from "/images/isbn_logo.png";
 // import header from "../data/header.json";
 
 export default function Header() {
 
   return (
     <header>
-      <p>Ceci est le header</p>
+      <img src={logo} alt="logo isbn" />
+      <Link className="esperluweb" to="https://esperluweb.com">par EsperluWeb</Link>
     </header>
     );
   }

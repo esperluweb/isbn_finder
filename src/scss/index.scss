@@ -26,6 +26,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	text-decoration: none;
+	color: inherit;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -55,6 +57,49 @@ table {
  * END RESET CSS
  */
 
+p, span, a, div {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 16px;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 16px;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 16px;
+}
+
 main {
     margin-top: var(--header-min-height);
+}
+
+a.esperluweb {
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variant-caps: small-caps;
+	color: #1c8adb;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+a.esperluweb.white {
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variant-caps: small-caps;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
 }

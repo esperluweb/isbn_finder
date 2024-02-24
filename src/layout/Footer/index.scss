@@ -1,19 +1,30 @@
-footer {
+.footer {
     z-index: 100;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    // justify-content: space-between;
     padding: 20px;
-    background-color: #ffffff;
-    color: black;
+    background-color: #1c8adb;
+    color: white;
     box-sizing: border-box;
     box-shadow: 0px -2px 18px 0px rgba(0,0,0,0.3);
     z-index: 100;
+    padding: 40px;
+    &__column {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        margin-bottom: 16px;
+        @media screen and (max-width: 1024px) {
+            width: 100%;
+        }
+    }
     @media screen and (max-width: 1024px) {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 16px;
     }
 }
 

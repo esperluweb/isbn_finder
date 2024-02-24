@@ -4,6 +4,7 @@ import {
   RouterProvider,
   createBrowserRouter
 } from "react-router-dom";
+import "./scss/index.scss"
 import "./scss/variables.scss"
 
 import { routesArray } from "./data/routes/front";
