@@ -9,8 +9,8 @@ const apiService = axios.create({
 export const getBookByISBN = async (id) => {
   try {
     const response = await apiService.get('/books?bibkeys=ISBN%3A'+id+'&format=json&jscmd=viewapi');
-    return response.data;
-  } catch (error) {
-    console.error(error);
-  }
+        return response.data;
+    } catch (error) {
+        console.error(error);
+    }
 };
