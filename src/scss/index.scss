@@ -81,7 +81,10 @@ h3 {
 }
 
 main {
+	max-width: var(--main-max-width);
+	margin: 0 auto;
     margin-top: var(--header-min-height);
+	padding: 40px 0;
 }
 
 a.esperluweb {
@@ -89,7 +92,7 @@ a.esperluweb {
 	font-optical-sizing: auto;
 	font-style: normal;
 	font-variant-caps: small-caps;
-	color: #1c8adb;
+	color: var(--color-primary);
 	font-weight: bold;
 	font-size: 24px;
 }
@@ -102,4 +105,17 @@ a.esperluweb.white {
 	color: white;
 	font-weight: bold;
 	font-size: 24px;
+}
+
+a.btn {
+	padding: 16px;
+	text-transform: uppercase;
+	background-color: var(--color-primary);
+	color: var(--color-secondary);
+	transition: all 0.5s ease;
+	&:hover{
+		background-color: var(--color-secondary);
+		color:var(--color-primary);
+		transition: all 0.5s ease;
+	}
 }

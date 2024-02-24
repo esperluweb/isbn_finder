@@ -1,0 +1,9 @@
+.splash {
+    margin: 80px 0;
+    .buttons {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+}

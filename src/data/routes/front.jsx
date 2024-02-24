@@ -1,4 +1,5 @@
 import Layout from "../../layout/Layout";
+import Home from "../../pages/Home";
 
 export const routesArray = [
     {
@@ -7,7 +8,7 @@ export const routesArray = [
         children: [
             {
             path: "/",
-            element: <div>Hello world!</div>,
+            element: <Home/>,
             }
         ]
     },
