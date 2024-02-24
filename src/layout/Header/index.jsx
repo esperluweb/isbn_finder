@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header>
       <img src={logo} alt="logo isbn" />
-      <Link className="esperluweb" to="https://esperluweb.com">par EsperluWeb</Link>
+      <Link className="esperluweb" to="https://esperluweb.com" target="_blank" rel="noreferrer">par EsperluWeb</Link>
     </header>
     );
   }
